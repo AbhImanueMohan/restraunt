@@ -1,0 +1,16 @@
+.test{
+    
+    text-align: center;
+    padding: 5px;
+}
+.text{
+    color: black;
+}
+#card:hover{
+padding: 10px;
+    box-shadow: 3px 5px 3px rgba(19, 18, 18, 0.404);
+}
+.cards{
+    padding: 15px;
+
+}

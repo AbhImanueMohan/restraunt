@@ -1,0 +1,50 @@
+                        Restraunt listing app
+                 ------------------------------------
+
+
+         1. Create a new application: npx create-react-app retraunt-listing-app
+         2. cd restraunt-listing-app
+         3. code .
+         4. run the application : npm start
+         5. clean the code 
+         6. choose a theme  using  bootwatch -hhtps://bootwatch.com/ and import itinto the index.js
+         7. copy and paste fontawesome cdnjs into the index.html
+         8. copy and paste google fonts into the index.css
+         9. INstall react bootstrap
+         10. Component Creation - 
+                              
+                                Components
+                                    - header  
+                                            Header.js
+                                            Header.css
+                                    -footer
+                                            Footer.js
+                                            Footer.css
+
+        11. Backend server Creation
+        12. API Fetching using,
+                                Axios :Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).
+                                On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
+
+                                Features
+              *  Make XMLHttpRequests  from the browser
+              *  Make http requests from node.js
+              *  Supports the Promise API
+              *  Intercept request and response
+              *  Cancel requests
+              *  Timeouts
+              *  Posting HTML forms as JSON
+              
+              -> Path Setup ,
+                            - React Router Dom - npm i react-router-Dom
+
+                            -> Browser Router : Used to setup app routing 
+                            -> Routes : To hold more than one route(Used to hold multiple compnents)
+                            -> Route : Used to setup a component Path
+
+
+              ->useParams : In our React app sometimes we want to access the parameters of the current route in this case useParams hook comes into action. The react-router-dom package has useParams hooks that let you access the parameters of the current route.
+
+              Syntax:
+
+               useParams();
